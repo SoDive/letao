@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>乐淘电商</title>
+  <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="./lib/bootstrap-validator/css/bootstrapValidator.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="lib/nprogress/nprogress.css">
+</head>
+<body>
+  <!-- 乐淘侧边栏 -->
+  <div class="lt_aside">
+    <div class="brand">
+      <h3>乐淘鞋城</h3>
+    </div>
+    <div class="profile_photo">
+      <img src="images/02.jpg" alt="">
+      <p>超级管理员</p>
+    </div>
+    <div class="nav">
+
+
+      <ul>
+      <li>
+        <a href="user.html" >
+          <i class="glyphicon glyphicon-user"></i>
+          <span>用户管理</span>
+        </a>
+      </li>
+      <li>
+          <a href="javascript:;" class="category">
+              <i class="glyphicon glyphicon-list" ></i>
+              <span>分类管理</span>
+            </a>
+            <div class="chlid" >
+              <a href="first.html" >一级分类</a>
+              <a href="second.html">二级分类</a>
+            </div>
+      </li>
+      <li>
+          <a href="product.html" class="active">
+              <i class="glyphicon glyphicon-tags"></i>
+              <span>商品管理</span>
+            </a>
+      </li>
+    </ul>
+    </div>
+    
+  </div>
+
+  <!-- 顶部区域 -->
+  <div class="lt_header">
+    <a href="#" class="icon_left pull-left">
+       <i class="glyphicon glyphicon-align-justify"></i>
+    </a>
+    <a href="#" class="icon_right pull-right">
+        <i class="glyphicon glyphicon-log-out"></i>
+     </a>
+  </div>
+
+  <!-- 主题区域 -->
+  <div class="lt_main">
+        <ol class="breadcrumb">
+            <li><a href="index.html">系统管理</a></li>
+            <li class="active">首页</li>
+        </ol>
+  
+    </div>
+  <!-- 模态框 -->
+
+  <!-- Modal -->
+  <div class="modal fade  " id="logoutModal" tabindex="-1"   aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content col-sm-6 col-lg-offset-3" style="padding: 0 15px 0 15px">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">温馨提示</h4>
+          </div>
+          <div class="modal-body">
+            <p> <i class="glyphicon glyphicon-info-sign"></i> 您确定要退出后台管理系统吗？</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+            <button type="button" class="btn btn-primary" id="logoutBtn">确定</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<script src="./lib/jquery/jquery.min.js"></script>
+<script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="./lib/bootstrap-validator/js/bootstrapValidator.min.js"></script>
+<script src="./js/login.js"></script>
+<script src="lib/nprogress/nprogress.js"></script>
+  <script src="./js/judge.js"></script>
+  <script src="js/schedule.js"></script>
+<script src="./lib/echarts/echarts.min.js"></script>
+<script src="./js/common.js"></script>
+
+</body>
+</html>

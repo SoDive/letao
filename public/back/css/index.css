@@ -1,0 +1,150 @@
+.lt_aside{
+    width: 180px;
+    height: 645px;
+    background-color: #222D32;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 999;
+  transition: all 1s;
+
+}
+.lt_aside.hidemenu {
+    left:-180px;
+  }
+.lt_aside .brand{
+    width: 180px;
+    height: 50px;
+    background-color: #367FA9;
+    padding: 0;
+    margin: 0;
+}
+.lt_aside .brand h3{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 50px;
+    color:#fff;
+}
+.lt_aside .profile_photo{
+    margin-top: 30px;
+}
+.lt_aside .profile_photo img{
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    display: block; 
+    margin: 0 auto;
+}
+.lt_aside .profile_photo p{
+    width: 180px;
+    height: 40px;
+    font-size: 18px;
+    color:#fff;
+    margin-top: 5px;
+    line-height: 40px;
+    text-align: center;
+}
+.lt_aside .nav{
+    margin-top: 50px;
+}
+.lt_aside .nav ul{
+    padding: 0;
+    margin: 0;
+}
+.lt_aside .nav li{
+    list-style: none;
+    width: 180px;
+}
+
+.lt_aside .nav a{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    color:#fff;
+    display: block;
+    border-left: 3px solid transparent; 
+    padding-left: 40px;
+}
+.lt_aside .nav a span{
+    margin-left: 5px;
+}
+.lt_aside .nav li a.active{
+    background-color: #1D1F21;
+    border-left: 3px solid #069;
+}
+.lt_aside .nav .chlid{
+    display: none;
+}
+.lt_aside .nav .chlid a{
+    padding-left: 60px;
+}
+
+/* 顶部区域 */
+.lt_header{
+    height: 50px;
+    width: 100%;
+    background-color: #3C8DBC;
+    position: fixed;
+    top: 0;
+    padding-left: 180px;
+    z-index: 998;
+  transition: all 1s;
+
+}
+.lt_header.hidemenu {
+    padding-left: 0px;
+  }
+.lt_header .icon_left{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+.lt_header .icon_right{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+/* 主题区域 */
+.lt_main{
+    padding-top: 50px;
+    padding-left: 180px;
+    transition: all 1s;
+}
+.lt_main.hidemenu {
+    padding-left: 0px;
+  }
+.lt_main ol{
+    margin: 15px;
+}
+.lt_main ol li a{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.lt_print_left,
+.lt_print_right{
+    width: 48%;
+    height: 500px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+
+ 
+/* 模态框 */
+.modal-body{
+    color:#D53A35;
+}
